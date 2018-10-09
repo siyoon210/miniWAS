@@ -52,10 +52,10 @@ public class Request {
                 headerInfo.put(headerLine.substring(0,pos), headerLine.substring(pos+1));
             }
 
-            System.out.println(httpMethod);
-            System.out.println(path);
-            System.out.println(parameter.toString());
-            System.out.println(headerInfo.toString());
+//            System.out.println(httpMethod);
+//            System.out.println(path);
+//            System.out.println(parameter.toString());
+//            System.out.println(headerInfo.toString());
         } catch (IOException e) {
             e.printStackTrace();
         }
